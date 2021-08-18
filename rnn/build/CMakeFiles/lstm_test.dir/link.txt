@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp    CMakeFiles/lstm_test.dir/lstm_test.cpp.o CMakeFiles/lstm_test.dir/lstm.cpp.o CMakeFiles/lstm_test.dir/weight_init.cpp.o  -o lstm_test 

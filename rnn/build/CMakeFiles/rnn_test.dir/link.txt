@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp    CMakeFiles/rnn_test.dir/rnn_test.cpp.o CMakeFiles/rnn_test.dir/rnn.cpp.o  -o rnn_test 
