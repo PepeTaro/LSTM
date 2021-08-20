@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/superhuman/programming/rnn
+CMAKE_SOURCE_DIR = /home/superhuman/programming/git/LSTM/rnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/superhuman/programming/rnn/build
+CMAKE_BINARY_DIR = /home/superhuman/programming/git/LSTM/rnn/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rnn_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/rnn_test.dir/flags.make
 
 CMakeFiles/rnn_test.dir/rnn_test.cpp.o: CMakeFiles/rnn_test.dir/flags.make
 CMakeFiles/rnn_test.dir/rnn_test.cpp.o: ../rnn_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rnn_test.dir/rnn_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnn_test.dir/rnn_test.cpp.o -c /home/superhuman/programming/rnn/rnn_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rnn_test.dir/rnn_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnn_test.dir/rnn_test.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/rnn_test.cpp
 
 CMakeFiles/rnn_test.dir/rnn_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rnn_test.dir/rnn_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/rnn/rnn_test.cpp > CMakeFiles/rnn_test.dir/rnn_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/git/LSTM/rnn/rnn_test.cpp > CMakeFiles/rnn_test.dir/rnn_test.cpp.i
 
 CMakeFiles/rnn_test.dir/rnn_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnn_test.dir/rnn_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/rnn/rnn_test.cpp -o CMakeFiles/rnn_test.dir/rnn_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/git/LSTM/rnn/rnn_test.cpp -o CMakeFiles/rnn_test.dir/rnn_test.cpp.s
 
 CMakeFiles/rnn_test.dir/rnn_test.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/rnn_test.dir/rnn_test.cpp.o.provides.build: CMakeFiles/rnn_test.dir/r
 
 CMakeFiles/rnn_test.dir/rnn.cpp.o: CMakeFiles/rnn_test.dir/flags.make
 CMakeFiles/rnn_test.dir/rnn.cpp.o: ../rnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rnn_test.dir/rnn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnn_test.dir/rnn.cpp.o -c /home/superhuman/programming/rnn/rnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rnn_test.dir/rnn.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnn_test.dir/rnn.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/rnn.cpp
 
 CMakeFiles/rnn_test.dir/rnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rnn_test.dir/rnn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/rnn/rnn.cpp > CMakeFiles/rnn_test.dir/rnn.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/git/LSTM/rnn/rnn.cpp > CMakeFiles/rnn_test.dir/rnn.cpp.i
 
 CMakeFiles/rnn_test.dir/rnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnn_test.dir/rnn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/rnn/rnn.cpp -o CMakeFiles/rnn_test.dir/rnn.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/git/LSTM/rnn/rnn.cpp -o CMakeFiles/rnn_test.dir/rnn.cpp.s
 
 CMakeFiles/rnn_test.dir/rnn.cpp.o.requires:
 
@@ -117,7 +117,7 @@ rnn_test: CMakeFiles/rnn_test.dir/rnn_test.cpp.o
 rnn_test: CMakeFiles/rnn_test.dir/rnn.cpp.o
 rnn_test: CMakeFiles/rnn_test.dir/build.make
 rnn_test: CMakeFiles/rnn_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable rnn_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable rnn_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rnn_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/rnn_test.dir/clean:
 .PHONY : CMakeFiles/rnn_test.dir/clean
 
 CMakeFiles/rnn_test.dir/depend:
-	cd /home/superhuman/programming/rnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/superhuman/programming/rnn /home/superhuman/programming/rnn /home/superhuman/programming/rnn/build /home/superhuman/programming/rnn/build /home/superhuman/programming/rnn/build/CMakeFiles/rnn_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/superhuman/programming/git/LSTM/rnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/superhuman/programming/git/LSTM/rnn /home/superhuman/programming/git/LSTM/rnn /home/superhuman/programming/git/LSTM/rnn/build /home/superhuman/programming/git/LSTM/rnn/build /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/rnn_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rnn_test.dir/depend
 

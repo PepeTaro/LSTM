@@ -1,4 +1,4 @@
-/home/superhuman/programming/rnn/build/CMakeFiles/rebuild_cache.dir
-/home/superhuman/programming/rnn/build/CMakeFiles/edit_cache.dir
-/home/superhuman/programming/rnn/build/CMakeFiles/rnn_test.dir
-/home/superhuman/programming/rnn/build/CMakeFiles/lstm_test.dir
+/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/rebuild_cache.dir
+/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/edit_cache.dir
+/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/rnn_test.dir
+/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/lstm_test.dir

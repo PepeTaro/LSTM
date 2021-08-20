@@ -284,13 +284,14 @@ void LSTM::Backward(const std::vector<Eigen::VectorXf>& inputs,
   Eigen::VectorXf dcandidate_t;
   Eigen::VectorXf ddelta_t;
 
-  // Compute the errors
   for(int t=0;t<time_step_;++t){
     dq = (1.0/time_step_)*GradientOfCategoricalCrossEntropy(outputs[t],labels[t]);
     dq_t.push_back(dq);
   }
 
   // BPTT
+  #pragma omp parallel
+  #pragma omp for  
   for(int t=time_step_-1;t>=0;--t){
     // For the output layer
     dz_t = dq_t[t].array()*z_t_[t].unaryExpr(&DerivativeOfLinear).array();
@@ -367,7 +368,7 @@ void LSTM::UpdateAllParams(){
     UpdateParam(w_fx_,dw_fx_);
     UpdateParam(w_fh_,dw_fh_);
     UpdateParam(b_f_,db_f_);
-
+    
     // Update the output gate
     UpdateParam(w_ox_,dw_ox_);
     UpdateParam(w_oh_,dw_oh_);

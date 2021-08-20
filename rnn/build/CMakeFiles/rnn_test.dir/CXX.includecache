@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/superhuman/programming/rnn/rnn.cpp
+/home/superhuman/programming/git/LSTM/rnn/rnn.cpp
 rnn.h
-/home/superhuman/programming/rnn/rnn.h
+/home/superhuman/programming/git/LSTM/rnn/rnn.h
 
-/home/superhuman/programming/rnn/rnn.h
+/home/superhuman/programming/git/LSTM/rnn/rnn.h
 iostream
 -
 array
@@ -24,13 +24,13 @@ cassert
 Eigen/Dense
 -
 utils.hpp
-/home/superhuman/programming/rnn/utils.hpp
+/home/superhuman/programming/git/LSTM/rnn/utils.hpp
 
-/home/superhuman/programming/rnn/rnn_test.cpp
+/home/superhuman/programming/git/LSTM/rnn/rnn_test.cpp
 rnn.h
-/home/superhuman/programming/rnn/rnn.h
+/home/superhuman/programming/git/LSTM/rnn/rnn.h
 
-/home/superhuman/programming/rnn/utils.hpp
+/home/superhuman/programming/git/LSTM/rnn/utils.hpp
 vector
 -
 cassert

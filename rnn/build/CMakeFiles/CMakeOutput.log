@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/superhuman/programming/rnn/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/superhuman/programming/rnn/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e5ecb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e5ecb.dir/build.make CMakeFiles/cmTC_e5ecb.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_e5ecb.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e5ecb.dir/testCCompiler.c.o   -c /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e5ecb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5ecb.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e5ecb.dir/testCCompiler.c.o  -o cmTC_e5ecb 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_d0437/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0437.dir/build.make CMakeFiles/cmTC_d0437.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d0437.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0437.dir/testCCompiler.c.o   -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d0437
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0437.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d0437.dir/testCCompiler.c.o  -o cmTC_d0437 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_baa89/fast"
-/usr/bin/make -f CMakeFiles/cmTC_baa89.dir/build.make CMakeFiles/cmTC_baa89.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_baa89
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baa89.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o  -o cmTC_baa89 
+Run Build Command:"/usr/bin/make" "cmTC_327ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_327ff.dir/build.make CMakeFiles/cmTC_327ff.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_327ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_327ff.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o  -o cmTC_327ff 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_baa89' '-mtune=generic' '-march=i686'
- /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMIWtb9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_baa89 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_baa89' '-mtune=generic' '-march=i686'
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327ff' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHPNpm0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_327ff /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327ff' '-mtune=generic' '-march=i686'
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_baa89/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_baa89.dir/build.make CMakeFiles/cmTC_baa89.dir/build]
-  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります]
-  ignore line: [Building C object CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_baa89]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baa89.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o  -o cmTC_baa89 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_327ff/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_327ff.dir/build.make CMakeFiles/cmTC_327ff.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building C object CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_327ff]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_327ff.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o  -o cmTC_327ff ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_baa89' '-mtune=generic' '-march=i686']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMIWtb9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_baa89 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327ff' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHPNpm0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_327ff /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i686-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMIWtb9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHPNpm0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_baa89] ==> ignore
+    arg [cmTC_327ff] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i686-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_baa89.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_327ff.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -152,17 +152,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3bc9b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3bc9b.dir/build.make CMakeFiles/cmTC_3bc9b.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_3bc9b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3bc9b.dir/feature_tests.c.o   -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3bc9b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bc9b.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_3bc9b.dir/feature_tests.c.o  -o cmTC_3bc9b 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_124ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_124ea.dir/build.make CMakeFiles/cmTC_124ea.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_124ea.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_124ea.dir/feature_tests.c.o   -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_124ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_124ea.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_124ea.dir/feature_tests.c.o  -o cmTC_124ea 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +172,17 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9ef2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9ef2.dir/build.make CMakeFiles/cmTC_c9ef2.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_c9ef2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c9ef2.dir/feature_tests.c.o   -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c9ef2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9ef2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c9ef2.dir/feature_tests.c.o  -o cmTC_c9ef2 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_8b0b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b0b7.dir/build.make CMakeFiles/cmTC_8b0b7.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8b0b7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_8b0b7.dir/feature_tests.c.o   -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8b0b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b0b7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8b0b7.dir/feature_tests.c.o  -o cmTC_8b0b7 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -192,17 +192,17 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c84e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c84e.dir/build.make CMakeFiles/cmTC_0c84e.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_0c84e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_0c84e.dir/feature_tests.c.o   -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0c84e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c84e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0c84e.dir/feature_tests.c.o  -o cmTC_0c84e 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_673df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_673df.dir/build.make CMakeFiles/cmTC_673df.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_673df.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_673df.dir/feature_tests.c.o   -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_673df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_673df.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_673df.dir/feature_tests.c.o  -o cmTC_673df 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -210,30 +210,30 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_086ac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_086ac.dir/build.make CMakeFiles/cmTC_086ac.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_086ac.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_086ac.dir/testCXXCompiler.cxx.o -c /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_086ac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_086ac.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_086ac.dir/testCXXCompiler.cxx.o  -o cmTC_086ac 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_eb78b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb78b.dir/build.make CMakeFiles/cmTC_eb78b.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_eb78b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_eb78b.dir/testCXXCompiler.cxx.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_eb78b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb78b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_eb78b.dir/testCXXCompiler.cxx.o  -o cmTC_eb78b 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25c58/fast"
-/usr/bin/make -f CMakeFiles/cmTC_25c58.dir/build.make CMakeFiles/cmTC_25c58.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_25c58
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c58.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_25c58 
+Run Build Command:"/usr/bin/make" "cmTC_45c2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45c2b.dir/build.make CMakeFiles/cmTC_45c2b.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_45c2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c2b.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_45c2b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper
@@ -243,24 +243,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25c58' '-shared-libgcc' '-mtune=generic' '-march=i686'
- /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjjqsfL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_25c58 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25c58' '-shared-libgcc' '-mtune=generic' '-march=i686'
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45c2b' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGbxBzy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_45c2b /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45c2b' '-shared-libgcc' '-mtune=generic' '-march=i686'
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_25c58/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_25c58.dir/build.make CMakeFiles/cmTC_25c58.dir/build]
-  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります]
-  ignore line: [Building CXX object CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_25c58]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c58.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_25c58 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_45c2b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_45c2b.dir/build.make CMakeFiles/cmTC_45c2b.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building CXX object CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_45c2b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c2b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_45c2b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25c58' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjjqsfL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_25c58 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45c2b' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGbxBzy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_45c2b /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i686-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjjqsfL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGbxBzy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_25c58] ==> ignore
+    arg [cmTC_45c2b] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i686-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_25c58.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_45c2b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -332,17 +332,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_40e39/fast"
-/usr/bin/make -f CMakeFiles/cmTC_40e39.dir/build.make CMakeFiles/cmTC_40e39.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_40e39.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_40e39.dir/feature_tests.cxx.o -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_40e39
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e39.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_40e39.dir/feature_tests.cxx.o  -o cmTC_40e39 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_e4d65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4d65.dir/build.make CMakeFiles/cmTC_e4d65.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_e4d65.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_e4d65.dir/feature_tests.cxx.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e4d65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4d65.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e4d65.dir/feature_tests.cxx.o  -o cmTC_e4d65 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -405,17 +405,17 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95752/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95752.dir/build.make CMakeFiles/cmTC_95752.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_95752.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_95752.dir/feature_tests.cxx.o -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_95752
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95752.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_95752.dir/feature_tests.cxx.o  -o cmTC_95752 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_e70aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e70aa.dir/build.make CMakeFiles/cmTC_e70aa.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_e70aa.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e70aa.dir/feature_tests.cxx.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e70aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e70aa.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e70aa.dir/feature_tests.cxx.o  -o cmTC_e70aa 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -478,17 +478,17 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d09a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d09a9.dir/build.make CMakeFiles/cmTC_d09a9.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_d09a9.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d09a9.dir/feature_tests.cxx.o -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d09a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09a9.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_d09a9.dir/feature_tests.cxx.o  -o cmTC_d09a9 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_98567/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98567.dir/build.make CMakeFiles/cmTC_98567.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_98567.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_98567.dir/feature_tests.cxx.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_98567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98567.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_98567.dir/feature_tests.cxx.o  -o cmTC_98567 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -551,17 +551,17 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f689e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f689e.dir/build.make CMakeFiles/cmTC_f689e.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_f689e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f689e.dir/feature_tests.cxx.o -c /home/superhuman/programming/rnn/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f689e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f689e.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f689e.dir/feature_tests.cxx.o  -o cmTC_f689e 
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+Run Build Command:"/usr/bin/make" "cmTC_f0f41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0f41.dir/build.make CMakeFiles/cmTC_f0f41.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_f0f41.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f0f41.dir/feature_tests.cxx.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f0f41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0f41.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f0f41.dir/feature_tests.cxx.o  -o cmTC_f0f41 
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -622,21 +622,21 @@ make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/C
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Detecting C OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41fd1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41fd1.dir/build.make CMakeFiles/cmTC_41fd1.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o
-/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o   -c /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Run Build Command:"/usr/bin/make" "cmTC_9ecf4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ecf4.dir/build.make CMakeFiles/cmTC_9ecf4.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o   -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: i686-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread'
- /usr/lib/gcc/i686-linux-gnu/7/cc1 -quiet -v -imultiarch i386-linux-gnu -D_REENTRANT /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cckiYhsp.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread'
+ /usr/lib/gcc/i686-linux-gnu/7/cc1 -quiet -v -imultiarch i386-linux-gnu -D_REENTRANT /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccl3vvMf.s
 GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (i686-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -656,15 +656,15 @@ GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (i686-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: ea6fba11a03c0f5614e7653e9daaf939
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread'
- as -v --32 -o CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o /tmp/cckiYhsp.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread'
+ as -v --32 -o CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o /tmp/ccl3vvMf.s
 GNU アセンブラ バージョン 2.30 (i686-linux-gnu)、BFD バージョン (GNU Binutils for Ubuntu) 2.30 を使用
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread'
-Linking C executable cmTC_41fd1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41fd1.dir/link.txt --verbose=1
-/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o  -o cmTC_41fd1 -v 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread'
+Linking C executable cmTC_9ecf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ecf4.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o  -o cmTC_9ecf4 -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper
@@ -675,29 +675,29 @@ gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/i686-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_41fd1' '-v' '-mtune=generic' '-march=i686' '-pthread'
- /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqct2nw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_41fd1 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_41fd1' '-v' '-mtune=generic' '-march=i686' '-pthread'
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_9ecf4' '-v' '-mtune=generic' '-march=i686' '-pthread'
+ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw87o3b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_9ecf4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_9ecf4' '-v' '-mtune=generic' '-march=i686' '-pthread'
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_41fd1/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_41fd1.dir/build.make CMakeFiles/cmTC_41fd1.dir/build]
-  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります]
-  ignore line: [Building C object CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o]
-  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o   -c /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9ecf4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9ecf4.dir/build.make CMakeFiles/cmTC_9ecf4.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building C object CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o   -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: i686-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread']
-  ignore line: [ /usr/lib/gcc/i686-linux-gnu/7/cc1 -quiet -v -imultiarch i386-linux-gnu -D_REENTRANT /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cckiYhsp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread']
+  ignore line: [ /usr/lib/gcc/i686-linux-gnu/7/cc1 -quiet -v -imultiarch i386-linux-gnu -D_REENTRANT /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccl3vvMf.s]
   ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (i686-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -717,15 +717,15 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: ea6fba11a03c0f5614e7653e9daaf939]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread']
-  ignore line: [ as -v --32 -o CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o /tmp/cckiYhsp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread']
+  ignore line: [ as -v --32 -o CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o /tmp/ccl3vvMf.s]
   ignore line: [GNU アセンブラ バージョン 2.30 (i686-linux-gnu)、BFD バージョン (GNU Binutils for Ubuntu) 2.30 を使用]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread']
-  ignore line: [Linking C executable cmTC_41fd1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41fd1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o  -o cmTC_41fd1 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=i686' '-pthread']
+  ignore line: [Linking C executable cmTC_9ecf4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ecf4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o  -o cmTC_9ecf4 -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper]
@@ -736,13 +736,13 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/i686-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_41fd1' '-v' '-mtune=generic' '-march=i686' '-pthread']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqct2nw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_41fd1 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_9ecf4' '-v' '-mtune=generic' '-march=i686' '-pthread']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw87o3b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_9ecf4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i686-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccqct2nw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccw87o3b.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -761,7 +761,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_41fd1] ==> ignore
+    arg [cmTC_9ecf4] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -773,7 +773,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i686-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_41fd1.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_9ecf4.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
@@ -803,21 +803,21 @@ Parsed C OpenMP implicit link information from above output:
 
 
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp
+Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3efe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3efe.dir/build.make CMakeFiles/cmTC_c3efe.dir/build
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o
-/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o -c /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Run Build Command:"/usr/bin/make" "cmTC_ca2e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca2e3.dir/build.make CMakeFiles/cmTC_ca2e3.dir/build
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: i686-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
- /usr/lib/gcc/i686-linux-gnu/7/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc5LaTcF.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
+ /usr/lib/gcc/i686-linux-gnu/7/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc9cyhqk.s
 GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (i686-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -841,15 +841,15 @@ GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (i686-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 598472f07898ee44960f6311a9351791
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
- as -v --32 -o CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o /tmp/cc5LaTcF.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
+ as -v --32 -o CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o /tmp/cc9cyhqk.s
 GNU アセンブラ バージョン 2.30 (i686-linux-gnu)、BFD バージョン (GNU Binutils for Ubuntu) 2.30 を使用
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
-Linking CXX executable cmTC_c3efe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3efe.dir/link.txt --verbose=1
-/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o  -o cmTC_c3efe -v 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
+Linking CXX executable cmTC_ca2e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca2e3.dir/link.txt --verbose=1
+/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o  -o cmTC_ca2e3 -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper
@@ -860,29 +860,29 @@ gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/i686-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c3efe' '-v' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
- /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpw2MjG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_c3efe /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c3efe' '-v' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
-make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' から出ます
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ca2e3' '-v' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
+ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctJEuCp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_ca2e3 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ca2e3' '-v' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread'
+make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c3efe/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c3efe.dir/build.make CMakeFiles/cmTC_c3efe.dir/build]
-  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/rnn/build/CMakeFiles/CMakeTmp' に入ります]
-  ignore line: [Building CXX object CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o -c /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ca2e3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ca2e3.dir/build.make CMakeFiles/cmTC_ca2e3.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: i686-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
-  ignore line: [ /usr/lib/gcc/i686-linux-gnu/7/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/superhuman/programming/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc5LaTcF.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
+  ignore line: [ /usr/lib/gcc/i686-linux-gnu/7/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc9cyhqk.s]
   ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (i686-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -906,15 +906,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 598472f07898ee44960f6311a9351791]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
-  ignore line: [ as -v --32 -o CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o /tmp/cc5LaTcF.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
+  ignore line: [ as -v --32 -o CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o /tmp/cc9cyhqk.s]
   ignore line: [GNU アセンブラ バージョン 2.30 (i686-linux-gnu)、BFD バージョン (GNU Binutils for Ubuntu) 2.30 を使用]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
-  ignore line: [Linking CXX executable cmTC_c3efe]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3efe.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o  -o cmTC_c3efe -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
+  ignore line: [Linking CXX executable cmTC_ca2e3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca2e3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o  -o cmTC_ca2e3 -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper]
@@ -925,13 +925,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/7/:/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/i686-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c3efe' '-v' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpw2MjG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_c3efe /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ca2e3' '-v' '-shared-libgcc' '-mtune=generic' '-march=i686' '-pthread']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/7/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctJEuCp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -z now -z relro -o cmTC_ca2e3 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/7 -L/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/7/../../.. CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/7/crtendS.o /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i686-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpw2MjG.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctJEuCp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -950,7 +950,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c3efe] ==> ignore
+    arg [cmTC_ca2e3] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -962,7 +962,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i686-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c3efe.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ca2e3.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]

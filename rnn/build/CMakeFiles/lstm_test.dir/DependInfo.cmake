@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/superhuman/programming/rnn/lstm.cpp" "/home/superhuman/programming/rnn/build/CMakeFiles/lstm_test.dir/lstm.cpp.o"
-  "/home/superhuman/programming/rnn/lstm_test.cpp" "/home/superhuman/programming/rnn/build/CMakeFiles/lstm_test.dir/lstm_test.cpp.o"
-  "/home/superhuman/programming/rnn/weight_init.cpp" "/home/superhuman/programming/rnn/build/CMakeFiles/lstm_test.dir/weight_init.cpp.o"
+  "/home/superhuman/programming/git/LSTM/rnn/lstm.cpp" "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/lstm_test.dir/lstm.cpp.o"
+  "/home/superhuman/programming/git/LSTM/rnn/lstm_test.cpp" "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/lstm_test.dir/lstm_test.cpp.o"
+  "/home/superhuman/programming/git/LSTM/rnn/weight_init.cpp" "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/lstm_test.dir/weight_init.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

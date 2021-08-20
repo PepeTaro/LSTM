@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/superhuman/programming/rnn
+CMAKE_SOURCE_DIR = /home/superhuman/programming/git/LSTM/rnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/superhuman/programming/rnn/build
+CMAKE_BINARY_DIR = /home/superhuman/programming/git/LSTM/rnn/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lstm_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lstm_test.dir/flags.make
 
 CMakeFiles/lstm_test.dir/lstm_test.cpp.o: CMakeFiles/lstm_test.dir/flags.make
 CMakeFiles/lstm_test.dir/lstm_test.cpp.o: ../lstm_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lstm_test.dir/lstm_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lstm_test.dir/lstm_test.cpp.o -c /home/superhuman/programming/rnn/lstm_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lstm_test.dir/lstm_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lstm_test.dir/lstm_test.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/lstm_test.cpp
 
 CMakeFiles/lstm_test.dir/lstm_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lstm_test.dir/lstm_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/rnn/lstm_test.cpp > CMakeFiles/lstm_test.dir/lstm_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/git/LSTM/rnn/lstm_test.cpp > CMakeFiles/lstm_test.dir/lstm_test.cpp.i
 
 CMakeFiles/lstm_test.dir/lstm_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lstm_test.dir/lstm_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/rnn/lstm_test.cpp -o CMakeFiles/lstm_test.dir/lstm_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/git/LSTM/rnn/lstm_test.cpp -o CMakeFiles/lstm_test.dir/lstm_test.cpp.s
 
 CMakeFiles/lstm_test.dir/lstm_test.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/lstm_test.dir/lstm_test.cpp.o.provides.build: CMakeFiles/lstm_test.di
 
 CMakeFiles/lstm_test.dir/lstm.cpp.o: CMakeFiles/lstm_test.dir/flags.make
 CMakeFiles/lstm_test.dir/lstm.cpp.o: ../lstm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lstm_test.dir/lstm.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lstm_test.dir/lstm.cpp.o -c /home/superhuman/programming/rnn/lstm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lstm_test.dir/lstm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lstm_test.dir/lstm.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/lstm.cpp
 
 CMakeFiles/lstm_test.dir/lstm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lstm_test.dir/lstm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/rnn/lstm.cpp > CMakeFiles/lstm_test.dir/lstm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/git/LSTM/rnn/lstm.cpp > CMakeFiles/lstm_test.dir/lstm.cpp.i
 
 CMakeFiles/lstm_test.dir/lstm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lstm_test.dir/lstm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/rnn/lstm.cpp -o CMakeFiles/lstm_test.dir/lstm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/git/LSTM/rnn/lstm.cpp -o CMakeFiles/lstm_test.dir/lstm.cpp.s
 
 CMakeFiles/lstm_test.dir/lstm.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/lstm_test.dir/lstm.cpp.o.provides.build: CMakeFiles/lstm_test.dir/lst
 
 CMakeFiles/lstm_test.dir/weight_init.cpp.o: CMakeFiles/lstm_test.dir/flags.make
 CMakeFiles/lstm_test.dir/weight_init.cpp.o: ../weight_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lstm_test.dir/weight_init.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lstm_test.dir/weight_init.cpp.o -c /home/superhuman/programming/rnn/weight_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lstm_test.dir/weight_init.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lstm_test.dir/weight_init.cpp.o -c /home/superhuman/programming/git/LSTM/rnn/weight_init.cpp
 
 CMakeFiles/lstm_test.dir/weight_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lstm_test.dir/weight_init.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/rnn/weight_init.cpp > CMakeFiles/lstm_test.dir/weight_init.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/superhuman/programming/git/LSTM/rnn/weight_init.cpp > CMakeFiles/lstm_test.dir/weight_init.cpp.i
 
 CMakeFiles/lstm_test.dir/weight_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lstm_test.dir/weight_init.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/rnn/weight_init.cpp -o CMakeFiles/lstm_test.dir/weight_init.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/superhuman/programming/git/LSTM/rnn/weight_init.cpp -o CMakeFiles/lstm_test.dir/weight_init.cpp.s
 
 CMakeFiles/lstm_test.dir/weight_init.cpp.o.requires:
 
@@ -143,7 +143,7 @@ lstm_test: CMakeFiles/lstm_test.dir/lstm.cpp.o
 lstm_test: CMakeFiles/lstm_test.dir/weight_init.cpp.o
 lstm_test: CMakeFiles/lstm_test.dir/build.make
 lstm_test: CMakeFiles/lstm_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/superhuman/programming/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lstm_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lstm_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lstm_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/lstm_test.dir/clean:
 .PHONY : CMakeFiles/lstm_test.dir/clean
 
 CMakeFiles/lstm_test.dir/depend:
-	cd /home/superhuman/programming/rnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/superhuman/programming/rnn /home/superhuman/programming/rnn /home/superhuman/programming/rnn/build /home/superhuman/programming/rnn/build /home/superhuman/programming/rnn/build/CMakeFiles/lstm_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/superhuman/programming/git/LSTM/rnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/superhuman/programming/git/LSTM/rnn /home/superhuman/programming/git/LSTM/rnn /home/superhuman/programming/git/LSTM/rnn/build /home/superhuman/programming/git/LSTM/rnn/build /home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/lstm_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lstm_test.dir/depend
 

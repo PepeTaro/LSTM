@@ -3,6 +3,8 @@
 #include <fstream>
 #include "lstm.h"
 
+const int time_step = 20;
+
 void InsertData(std::vector<std::vector<Eigen::VectorXf>>& inputs,
 		std::vector<std::vector<Eigen::VectorXf>>& labels,
 		const std::string& text)
@@ -10,13 +12,19 @@ void InsertData(std::vector<std::vector<Eigen::VectorXf>>& inputs,
   
   std::vector<Eigen::VectorXf> input;
   std::vector<Eigen::VectorXf> label;
+
+  int step = text.size() - time_step;
+  if(step < 0) step = 0;
   
-  EncodeSentence(text.c_str(),input,label);
-  inputs.push_back(input);
-  labels.push_back(label);
-  
-  //DecodeSentence(input);
-  //DecodeSentence(label);
+  for(int i=0;i<step;++i){
+    EncodeSentence(text.substr(i).c_str(),input,label);
+
+    inputs.push_back(input);
+    labels.push_back(label);
+
+    //DecodeSentence(input);
+    //DecodeSentence(label);    
+  }  
 }
 
 void GenerateDataset(std::vector<std::vector<Eigen::VectorXf>>& inputs,
@@ -48,7 +56,6 @@ void GenerateText(const LSTM& lstm,const std::string& prefix,int text_len){
 }
 
 int main(){
-  const int vec_size = 97;
   
   std::vector<std::vector<Eigen::VectorXf>> inputs;
   std::vector<std::vector<Eigen::VectorXf>> labels;
@@ -62,27 +69,29 @@ int main(){
   InsertData(inputs,labels,"But some people think mathematics is hard.");
   InsertData(inputs,labels,"But it's not true!");
   */
+  //InsertData(inputs,labels,"Mathematics is the most important displine in science.");
   
-  LSTM lstm(vec_size,vec_size,128,32,1.0);  
+  LSTM lstm(voc_size,voc_size,128,32,1.0);  
   int data_size = inputs.size();
 
-  //GenerateText(lstm,"Mathematic is ",10);
+  //GenerateText(lstm,"Mathematics is ",50);
   GenerateText(lstm,"You would not",100);
   
-  for(int e=0;e<800;++e){
-    float loss = 0;
+  for(int e=0;e<500;++e){
+    float loss = 0;    
     for(int n=0;n<data_size;++n){
       outputs = lstm.Forward(inputs[n]);
       lstm.Backward(inputs[n],outputs,labels[n]);
-      loss += lstm.GetLoss(inputs[n],labels[n])/outputs.size();      
+      loss += lstm.GetLoss(inputs[n],labels[n])/outputs.size();
     }
     lstm.UpdateAllParams();
     std::cout << "[Epoch " << e << "] Loss:" << loss << std::endl;
     if(e%100 == 0){
+      //GenerateText(lstm,"Mathematics is ",50);
       GenerateText(lstm,"You would not",100);
     }
   }
-
-  //GenerateText(lstm,"Mathematic is ",30);
+  
+  //GenerateText(lstm,"Mathematics is ",50);
   GenerateText(lstm,"You would not",100);
 }

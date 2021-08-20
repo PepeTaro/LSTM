@@ -1,0 +1,2 @@
+*) Not process the inputs as a vector,but process it in a matrix form.
+*) Adam optimizer

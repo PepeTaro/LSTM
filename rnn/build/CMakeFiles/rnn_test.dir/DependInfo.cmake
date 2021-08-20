@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/superhuman/programming/rnn/rnn.cpp" "/home/superhuman/programming/rnn/build/CMakeFiles/rnn_test.dir/rnn.cpp.o"
-  "/home/superhuman/programming/rnn/rnn_test.cpp" "/home/superhuman/programming/rnn/build/CMakeFiles/rnn_test.dir/rnn_test.cpp.o"
+  "/home/superhuman/programming/git/LSTM/rnn/rnn.cpp" "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/rnn_test.dir/rnn.cpp.o"
+  "/home/superhuman/programming/git/LSTM/rnn/rnn_test.cpp" "/home/superhuman/programming/git/LSTM/rnn/build/CMakeFiles/rnn_test.dir/rnn_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

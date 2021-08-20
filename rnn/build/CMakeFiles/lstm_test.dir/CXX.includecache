@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/superhuman/programming/rnn/lstm.cpp
+/home/superhuman/programming/git/LSTM/rnn/lstm.cpp
 lstm.h
-/home/superhuman/programming/rnn/lstm.h
+/home/superhuman/programming/git/LSTM/rnn/lstm.h
 
-/home/superhuman/programming/rnn/lstm.h
+/home/superhuman/programming/git/LSTM/rnn/lstm.h
 iostream
 -
 array
@@ -24,11 +24,11 @@ cassert
 Eigen/Dense
 -
 utils.hpp
-/home/superhuman/programming/rnn/utils.hpp
+/home/superhuman/programming/git/LSTM/rnn/utils.hpp
 weight_init.h
-/home/superhuman/programming/rnn/weight_init.h
+/home/superhuman/programming/git/LSTM/rnn/weight_init.h
 
-/home/superhuman/programming/rnn/lstm_test.cpp
+/home/superhuman/programming/git/LSTM/rnn/lstm_test.cpp
 string
 -
 iostream
@@ -36,9 +36,9 @@ iostream
 fstream
 -
 lstm.h
-/home/superhuman/programming/rnn/lstm.h
+/home/superhuman/programming/git/LSTM/rnn/lstm.h
 
-/home/superhuman/programming/rnn/utils.hpp
+/home/superhuman/programming/git/LSTM/rnn/utils.hpp
 vector
 -
 cassert
@@ -46,11 +46,11 @@ cassert
 Eigen/Dense
 -
 
-/home/superhuman/programming/rnn/weight_init.cpp
+/home/superhuman/programming/git/LSTM/rnn/weight_init.cpp
 weight_init.h
-/home/superhuman/programming/rnn/weight_init.h
+/home/superhuman/programming/git/LSTM/rnn/weight_init.h
 
-/home/superhuman/programming/rnn/weight_init.h
+/home/superhuman/programming/git/LSTM/rnn/weight_init.h
 array
 -
 random

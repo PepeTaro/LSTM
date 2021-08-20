@@ -5,6 +5,8 @@
 #include <cassert>
 #include <Eigen/Dense>
 
+const int voc_size = 95;
+
 inline float LogSumExp(const Eigen::VectorXf& logits){
   Eigen::VectorXf logits_minus_max;
   Eigen::VectorXf exp_logits_minus_max;
@@ -86,27 +88,20 @@ inline float DerivativeOfLinear(float x){
   return 1;
 }
 
-inline Eigen::VectorXf OneHotEncode(int index){
-  // +2 means that SOS(Start of Sentence) and EOS(End of Sentence) are added.
-  assert(index >= 32 and index <= 126+2);
+inline Eigen::VectorXf OneHotEncode(int index){  
+  assert(index >= 32 and index <= 126);
   int encode_idx = index - 32;
   
-  Eigen::VectorXf output = Eigen::VectorXf::Zero(97);
+  Eigen::VectorXf output = Eigen::VectorXf::Zero(voc_size);
   output[encode_idx] = 1;
   return output;
 }
 
 inline std::string Int2Str(int idx){
-  assert(idx >= 0 and idx <= 96);
+  assert(idx >= 0 and idx <= voc_size);
 
-  if(idx == 95){
-    return "SOS";
-  }else if(idx == 96){
-    return "EOS";
-  }else{
-    char c = (idx+32);
-    return std::string(1,c);
-  }
+  char c = (idx+32);
+  return std::string(1,c);  
 }
 
 inline void EncodeSentence(const std::string& sentence,
@@ -117,7 +112,7 @@ inline void EncodeSentence(const std::string& sentence,
   labels.clear();  
   int size = sentence.length();
   
-  for(int i=0;i<size-1;++i){
+  for(int i=0;i<size-1;++i){        
     inputs.push_back(OneHotEncode((int)sentence[i]));
     labels.push_back(OneHotEncode((int)sentence[i+1]));    
   }    
